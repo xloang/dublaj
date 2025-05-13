@@ -1,0 +1,2 @@
+# dublaj
+dublaj için
