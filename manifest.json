@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "YouTube Altyazı Çevirici",
+  "version": "1.0",
+  "permissions": ["storage", "tts"],
+  "host_permissions": [
+    "*://*.youtube.com/*",
+    "https://api.mymemory.translated.net/*"
+  ],
+  "content_scripts": [{
+    "matches": ["*://*.youtube.com/*"],
+    "js": ["content.js"]
+  }]
+}
